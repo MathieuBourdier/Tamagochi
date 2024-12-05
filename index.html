@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>Pixel Paws</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaGotcha</h1>
+  <div class="pet-container">
+    <div class="pet" id="pet1">
+      <div class="emoji">&#128049;</div>
+      <p>Saturation Level: <span id="hunger1">100</span>%</p>
+      <p>Energy: <span id="sleep1">100</span>%</p>
+      <p>Humeur: <span id="mood1">100</span>%</p> <!-- Ajout de l'humeur -->
+      <p id="message1"></p>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="emoji treat" onclick="feedPet(1)" id="treat1">&#127850;</div>
+    <button onclick="sleepPet(1)">SLEEP</button>
+    <button onclick="makePetSleep()">Let Pet Rest</button>
+    <button onclick="playWithPet()">Play with Pet</button> <!-- Ajout du bouton "Jouer" -->
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
